@@ -1,0 +1,17 @@
+# SwiftPM and Xcode build output
+.build/
+.swiftpm/
+DerivedData/
+*.xcodeproj/
+xcuserdata/
+*.xcuserstate
+
+# App bundle and shareable DMG from scripts/build-app.sh and scripts/package.sh
+build/
+dist/
+
+# Default output folder of `Clicky --probe snapshot`
+snapshots/
+
+# macOS
+.DS_Store
